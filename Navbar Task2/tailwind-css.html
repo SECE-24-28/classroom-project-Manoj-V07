@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="hidden sm:flex justify-between bg-black text-white items-center">
+        <div class="logo">
+            <img src="../LMS Task1/Images/logo.png" alt="Logo Of The Company" width="150" height="auto">
+        </div>
+        <div class="nav-links">
+            <ul class="flex gap-x-10">
+                <li><a class="hover:underline hover:text-yellow-500" href="./index.html">Product</a></li>
+                <li><a class="hover:underline hover:text-yellow-500" href="./index.html">Features</a></li>
+                <li><a class="hover:underline hover:text-yellow-500" href="./index.html">MarketPlace</a></li>
+                <li><a class="hover:underline hover:text-yellow-500" href="./index.html">Company</a></li>
+            </ul>
+        </div>
+        <div>
+            <button class="mr-8">
+                Log in
+            </button>
+            <button class="mr-6 border-1 rounded-lg bg-blue-700 p-2 hover:scale-110 transition">
+                Sign up
+            </button>
+        </div>
+    </div>
+</body>
+</html>
