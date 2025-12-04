@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Form</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./script.js" defer></script>
+</head>
+<body class="bg-amber-50">
+        <form class="w-[400px] bg-amber-100 h-auto ml-150 mt-50 shadow-xl/30 rounded-xl p-8">
+            <h2 class="font-bold text-3xl m-5 text-center">Login</h2>
+            <label for="email" class="font-semibold m-5">Enter Email : </label> <br>
+            <input type="email" class="border-2 bg-white w-[300px] m-5 rounded-lg p-1" id="email" class="m-3"required> <br>
+            <label for="password" class="font-semibold text-lg m-5">Enter Password : </label> <br>
+            <input type="password" class="border-2 bg-white w-[300px] m-5 rounded-lg p-1" id="password" class="m-3" required> <br>
+            <button class="border-2 mt-4 ml-26 w-[100px] border-gray-400 text-white bg-black hover:scale:110 transition hover:bg-yellow-500 hover:text-black hover:border-black text-md p-2 rounded-lg" onclick=login()>Submit</button>
+        </form>
+</body>
+</html>
