@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#41516a]">
+    <div class="flex flex-col justify-around  bg-[#4e5e77] p-4 border-none border-2 w-[400px] h-[430px] mx-auto my-50 rounded-2xl shadow-2xl">
+        <div class="space-y-2 text-gray-300">
+            <h2 class="font-bold text-[20px]">Simple JS Quiz</h2>
+            <p class="font-light text-[14px]">Question <span id="question-no"></span> of 3</p>
+        </div>
+        <div>
+            <h2 id="questions" class="text-gray-300"></h2>
+        </div>
+        <div id="options" class="space-y-2 ml-1 text-gray-300">
+            <p class="hover:scale-105 hover:bg-blue-500 duration-350 bg-[#5b6f88] rounded-lg p-2"></p>
+            <p class="hover:scale-105 hover:bg-blue-500 duration-350 bg-[#5b6f88] rounded-lg p-2"></p>
+            <p class="hover:scale-105 hover:bg-blue-500 duration-350 bg-[#5b6f88] rounded-lg p-2"></p>
+            <p class="hover:scale-105 hover:bg-blue-500 duration-350 bg-[#5b6f88] rounded-lg p-2"></p>
+        </div>
+        <div class = "flex justify-between">
+            <button id="nxtbtn" class="bg-pink-600 hover:scale-105 border-none duration-350 text-gray-300 cursor-pointer border-2 rounded-2xl px-3 ml-75 py-1">Next</button>
+        </div>
+        <script src="./Quiz.js"></script>
+    </div>
+</body>
+</html>
