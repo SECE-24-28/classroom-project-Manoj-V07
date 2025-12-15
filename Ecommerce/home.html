@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <style>
+        @keyframes priceDance {
+            0%   { transform: scale(1); }
+            20%  { transform: scale(1.25); }
+            40%  { transform: scale(0.9); }
+            60%  { transform: scale(1.2); }
+            80%  { transform: scale(0.95); }
+            100% { transform: scale(1); }
+        }
+        .animate-priceDance {
+            display: inline-block;
+            animation: priceDance 0.9s ease-in-out infinite;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#0d1117]">
+    <nav>
+    <div class="max-w-8xl mx-auto px-4 md:px-8 flex justify-between h-[80px] bg-black text-white items-center">
+        <div class="logo">
+            <img src="./download-removebg-preview (1).png" alt="Logo Of The Company" width="130" height="auto" class="object-contain">
+        </div>
+        <div class="nav-links">
+            <ul class="hidden md:flex gap-x-10">
+                <li><a class="hover:underline" href="./index.html">Products</a></li>
+                <li><a class="hover:underline" href="./index.html">Cart</a></li>
+                <li><a class="hover:underline" href="./index.html">Orders</a></li>
+                <li><a class="hover:underline" href="./index.html">Hot Deals</a></li>
+            </ul>
+        </div>
+        <div class="hidden md:flex">
+            <button class="mr-8">
+                Log in
+            </button>
+            <button class="mr-6 border-1 rounded-lg bg-blue-700 p-2 hover:scale-110 transition">
+                Sign up
+            </button>
+        </div>
+        <button id="menu-btn" class="md:hidden text-3xl focus:outline-none">
+            ☰
+        </button>
+    </div>
+        <div id="mobile-menu" class="md:hidden hidden flex flex-col bg-black text-white px-6 pb-6 space-y-4">
+        <a href="./index.html" class="hover:underline">Products</a>
+        <a href="./index.html" class="hover:underline">Cart</a>
+        <a href="./index.html" class="hover:underline">Orders</a>
+        <a href="./index.html" class="hover:underline">Hot Deals</a>
+
+        <div class="flex flex-col gap-3">
+            <button class="w-full border border-gray-400 py-2 rounded">Log in</button>
+            <button class="w-full bg-blue-700 py-2 rounded">Sign up</button>
+        </div>
+    </div>
+    </nav>
+    <div class="flex flex-col md:flex-row p-5 mt-15 text-gray-200 justify-start items-center">
+        <div class="p-5">
+            <h2 class="mb-4 text-[30px] font-extrabold">Upgrade Your Lifestyle with Smart Choices</h2>
+            <p class="text-[18px] text-sm/10">
+                Discover a world of top-quality products curated just for you.
+                From the newest gadgets to everyday essentials, everything is here.
+                Shop with confidence, enjoy unbeatable deals, and fast delivery.
+                Find what you love — all in one seamless shopping experience.
+            </p>
+            <button class="border-2 mt-10 rounded-xl p-2 hover:bg-gray-100 hover:text-gray-700 hover:scale-105 cursor-pointer duration-325">View All The Products</button>
+        </div>
+        <div>
+            <img class="w-[1200px] mt-10 md:mt-0 h-auto rounded-3xl" src="https://media.istockphoto.com/id/1249219777/photo/shopping-online-concept-parcel-or-paper-cartons-with-a-shopping-cart-logo-in-a-trolley-on-a.jpg?s=2048x2048&w=is&k=20&c=RjYs5hYBJddTuiIhHokANVdvVfh89yl1YRCIxheJkzw=" alt="">
+        </div>
+    </div>
+    <h2 class="mb-10 mt-10 text-gray-200 text-[30px] font-extrabold text-center">Products</h2>
+    <div id="products-container" class="flex items-center gap-5 ml-8 flex-wrap justify-start">
+    </div>
+    <script src="./home.js"></script>
+</body>
+</html>

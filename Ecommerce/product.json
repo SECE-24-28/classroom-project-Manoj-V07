@@ -1,0 +1,220 @@
+{
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Apple iPhone 15 Pro Max",
+      "brand": "Apple",
+      "category": "Smartphones",
+      "price": 149999,
+      "discountPrice": 139999,
+      "rating": 4.8,
+      "stock": 25,
+      "warranty": "1 Year Manufacturer Warranty",
+      "thumbnail": "https://images.unsplash.com/photo-1726732970014-f2df88c87dd3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFwcGxlJTIwaXBob25lJTIwMTYlMjBwcm8lMjBtYXh8ZW58MHx8MHx8fDA%3D",
+      "images": [
+        "https://example.com/iphone15-front.jpg",
+        "https://example.com/iphone15-back.jpg",
+        "https://example.com/iphone15-side.jpg"
+      ],
+      "specifications": {
+        "storage": "256GB",
+        "ram": "8GB",
+        "processor": "A17 Pro",
+        "display": "6.7-inch Super Retina XDR",
+        "battery": "4500 mAh",
+        "camera": "48MP + 12MP + 12MP",
+        "os": "iOS 17"
+      },
+      "description": "Apple iPhone 15 Pro Max comes with the all-new A17 Pro chip, titanium body, and advanced camera system."
+    },
+
+    {
+      "id": "P1002",
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "price": 129999,
+      "discountPrice": 119999,
+      "rating": 4.7,
+      "stock": 40,
+      "warranty": "1 Year Warranty",
+      "thumbnail": "https://images.unsplash.com/photo-1707438095940-1eee18e85400?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8czI0JTIwdWx0cmF8ZW58MHx8MHx8fDA%3D",
+      "images": [
+        "https://example.com/s24-front.jpg",
+        "https://example.com/s24-back.jpg"
+      ],
+      "specifications": {
+        "storage": "512GB",
+        "ram": "12GB",
+        "processor": "Snapdragon 8 Gen 3",
+        "display": "6.8-inch Dynamic AMOLED 2X",
+        "battery": "5000 mAh",
+        "camera": "200MP Quad Camera",
+        "os": "Android 14"
+      },
+      "description": "Samsung Galaxy S24 Ultra with AI-enhanced features and a 200MP pro-grade camera system."
+    },
+
+    {
+      "id": "P1003",
+      "name": "Sony WH-1000XM5 Headphones",
+      "brand": "Sony",
+      "category": "Audio",
+      "price": 29999,
+      "discountPrice": 26999,
+      "rating": 4.9,
+      "stock": 45,
+      "thumbnail": "https://images.unsplash.com/photo-1563626451-b5b36e6e52fb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFNvbnklMjBXSC0xMDAwWE01JTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "images": [
+        "https://example.com/sony-xm5-front.jpg",
+        "https://example.com/sony-xm5-side.jpg"
+      ],
+      "specifications": {
+        "type": "Over-Ear",
+        "noiseCancellation": "Industry-leading ANC",
+        "battery": "30 hours",
+        "bluetooth": "v5.2",
+        "weight": "250g"
+      },
+      "description": "Sony WH-1000XM5 delivers exceptional sound, superior noise cancellation, and ultra-soft comfort."
+    },
+
+    {
+      "id": "P1004",
+      "name": "OnePlus Buds 3",
+      "brand": "OnePlus",
+      "category": "Audio",
+      "price": 7999,
+      "discountPrice": 6999,
+      "rating": 4.4,
+      "stock": 120,
+      "thumbnail": "https://images.unsplash.com/photo-1655560378428-7605bda51749?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8T25lUGx1cyUyMEVhckJ1ZHN8ZW58MHx8MHx8fDA%3D",
+      "images": [
+        "https://example.com/opbuds3-1.jpg",
+        "https://example.com/opbuds3-2.jpg"
+      ],
+      "specifications": {
+        "battery": "36 hours with case",
+        "noiseCancellation": "49 dB ANC",
+        "waterResistance": "IP55",
+        "bluetooth": "v5.3"
+      },
+      "description": "OnePlus Buds 3 offer premium sound quality, deep bass, and powerful ANC at an affordable price."
+    },
+
+    {
+      "id": "P1005",
+      "name": "Acer Nitro 5 Gaming Laptop",
+      "brand": "Acer",
+      "category": "Laptops",
+      "price": 79999,
+      "discountPrice": 74999,
+      "rating": 4.5,
+      "stock": 10,
+      "thumbnail": "https://media.istockphoto.com/id/1399174333/photo/gaming-laptop-computer-isolated-on-white.jpg?s=2048x2048&w=is&k=20&c=a03QHLyqUuCgTz5KPKZ54pb86HBgAiA5EULQd1hyN0A=",
+      "images": [
+        "https://example.com/nitro5-front.jpg",
+        "https://example.com/nitro5-back.jpg"
+      ],
+      "specifications": {
+        "processor": "Intel i7 13th Gen",
+        "ram": "16GB DDR5",
+        "storage": "512GB SSD",
+        "gpu": "NVIDIA RTX 4060",
+        "display": "15.6-inch FHD 144Hz"
+      },
+      "description": "Acer Nitro 5 is a high-performance gaming laptop built for serious gamers and creators."
+    },
+
+    {
+      "id": "P1006",
+      "name": "Apple MacBook Air M2",
+      "brand": "Apple",
+      "category": "Laptops",
+      "price": 114999,
+      "discountPrice": 104999,
+      "rating": 4.8,
+      "stock": 18,
+      "thumbnail": "https://images.unsplash.com/photo-1717865499857-ec35ce6e65fa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QXBwbGUlMjBNYWNCb29rJTIwQWlyJTIwTTJ8ZW58MHx8MHx8fDA%3D",
+      "images": [
+        "https://example.com/macbook-m2-front.jpg"
+      ],
+      "specifications": {
+        "processor": "Apple M2",
+        "ram": "8GB",
+        "storage": "256GB SSD",
+        "display": "13.6-inch Liquid Retina",
+        "battery": "18 hours"
+      },
+      "description": "MacBook Air M2 combines extraordinary performance with stunning design and all-day battery life."
+    },
+
+    {
+      "id": "P1007",
+      "name": "Nike Air Max 270",
+      "brand": "Nike",
+      "category": "Shoes",
+      "price": 14999,
+      "discountPrice": 12999,
+      "rating": 4.6,
+      "stock": 60,
+      "thumbnail": "https://images.unsplash.com/photo-1562613521-6b5293e5b0ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TmlrZSUyMEFpciUyME1heCUyMDI3MHxlbnwwfHwwfHx8MA%3D%3D",
+      "sizes": ["6", "7", "8", "9", "10"],
+      "colors": ["Black", "White", "Red"],
+      "description": "Nike Air Max 270 features a massive 270-degree Air unit for superior cushioning and style."
+    },
+
+    {
+      "id": "P1008",
+      "name": "Adidas Ultraboost Light",
+      "brand": "Adidas",
+      "category": "Shoes",
+      "price": 17999,
+      "discountPrice": 14999,
+      "rating": 4.7,
+      "stock": 50,
+      "thumbnail": "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QWRpZGFzJTIwVWx0cmFib29zdCUyMExpZ2h0fGVufDB8fDB8fHww",
+      "sizes": ["7", "8", "9", "10", "11"],
+      "colors": ["White", "Blue"],
+      "description": "Adidas Ultraboost Light brings unbeatable comfort and energy return with its lightweight Boost midsole."
+    },
+
+    {
+      "id": "P1009",
+      "name": "Boat Stone 1500 Bluetooth Speaker",
+      "brand": "Boat",
+      "category": "Electronics",
+      "price": 4999,
+      "discountPrice": 3499,
+      "rating": 4.3,
+      "stock": 150,
+      "thumbnail": "https://images.unsplash.com/photo-1518671678551-911467efe539?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEJsdWV0b290aCUyMFNwZWFrZXJ8ZW58MHx8MHx8fDA%3D",
+      "specifications": {
+        "output": "40W",
+        "battery": "15 hours",
+        "waterResistance": "IPX6",
+        "bluetooth": "v5.0"
+      },
+      "description": "Boat Stone 1500 delivers loud, punchy bass and long battery life—perfect for outdoor parties."
+    },
+
+    {
+      "id": "P1010",
+      "name": "LG 55-inch 4K Smart TV",
+      "brand": "LG",
+      "category": "Television",
+      "price": 59999,
+      "discountPrice": 52999,
+      "rating": 4.6,
+      "stock": 22,
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1664302149029-50514758ed8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c21hcnQlMjB0dnxlbnwwfHwwfHx8MA%3D%3D",
+      "specifications": {
+        "display": "55-inch UHD 4K",
+        "os": "WebOS",
+        "refreshRate": "60Hz",
+        "hdmiPorts": 3
+      },
+      "description": "LG 55-inch 4K Smart TV offers crystal clear visuals, AI picture enhancements, and a smooth WebOS experience."
+    }
+  ]
+}
